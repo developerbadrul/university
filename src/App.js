@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Header from './components/header/Header';
-import { BrowserRouter as Router, Switch, Route, NavLink} from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route, NavLink } from 'react-router-dom';
 import Home from './components/Home/Home';
 import Aboutus from './components/AboutUs/Aboutus';
 import Services from './components/Services/Services';
@@ -14,7 +14,7 @@ function App() {
   return (
     <div className="App">
       <Router>
-      <Header></Header>
+        <Header></Header>
         <Switch>
           <Route path="/home">
             <Home></Home>
@@ -37,7 +37,7 @@ function App() {
         </Switch>
         <Footer></Footer>
       </Router>
-      
+
     </div>
   );
 }
