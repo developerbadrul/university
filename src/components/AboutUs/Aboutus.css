@@ -1,0 +1,11 @@
+.Form{
+    width: 70%;
+    margin: auto;
+    border: 2px dotted #000;
+    padding: 40px;
+}
+
+.Grid-card{
+    width: 80%;
+    margin: auto;
+}
