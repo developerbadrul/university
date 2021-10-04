@@ -1,0 +1,95 @@
+.hero-section{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.Left-side{
+    padding: 40px;
+}
+
+.Left-side h1{
+    width: 580px;
+    text-align: left;
+    font-size: 56px;
+}
+
+.Left-side h1 span{
+    color: #717cff;
+}
+
+.Left-side p{
+    color: #7d7d7d;
+    font-size: 22px;
+    width: 536px;
+}
+
+.Left-side button{
+    color: #fff;
+    background-color: #717cff;
+    padding: 10px 30px;
+    border: none;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-left: 2px;
+    cursor: pointer;
+}
+
+.Left-side button:hover{
+    color: rgb(77, 76, 76);
+    background-color: #71ff78;
+   
+}
+
+.hero-section img{
+    width: 400px;
+}
+
+ul li{
+    list-style: none;
+    width: 24px;
+    display: inline;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+ul li:hover{
+    color: blue;
+}
+
+
+/* feature university section  */
+
+.feature-university{
+    background-color: #f9f9f9;
+}
+
+.feature-university p{
+    font-size: 23px;
+    margin-top: 20px;
+    padding: 10px;
+    letter-spacing: 3px;
+    font-weight: lighter;
+}
+
+.feature-university ul li img{
+    width: 250px;
+    padding: 10px;
+}
+
+/* event section  */
+
+.event h2{
+     font-size: 37px;
+}
+.event p{
+     color: #7d7d7d;
+     font-size: 22px;
+     font-weight: lighter;
+}
+
+.event-items{
+    width: 80%;
+    margin: auto;
+}
+

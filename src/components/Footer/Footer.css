@@ -1,0 +1,21 @@
+footer{
+    margin-top: 30px;
+    padding: 15px;
+    background-color: #707cff;
+    color: #fff;
+}
+
+.footer-content img{
+    width: 60px;
+    display: block;
+    margin: auto;
+    padding: 20px;
+}
+
+.buttom-icon li{
+    color: #fff;
+}
+
+.buttom-icon li:hover{
+    color: rgb(49, 49, 49);
+}

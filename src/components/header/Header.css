@@ -1,0 +1,10 @@
+.header{
+    box-shadow: -1px 6px 26px -6px rgba(0,0,0,0.75);
+-webkit-box-shadow: -1px 6px 26px -6px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 6px 26px -6px rgba(0,0,0,0.75);
+    padding: 15px;
+    position: sticky;
+    top: 0;
+    z-index: 999; 
+    background-color: #fff;
+}
