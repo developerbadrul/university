@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Header from './components/header/Header';
 import { BrowserRouter as Router, Switch, Route, NavLink } from 'react-router-dom';
@@ -8,7 +7,7 @@ import Services from './components/Services/Services';
 import NotFound from './components/404/NotFound';
 import Posts from './components/Posts/Posts';
 import Footer from './components/Footer/Footer';
-
+import SingleService from '../src/components/SingleService/SingleService'
 
 function App() {
   return (
@@ -26,12 +25,12 @@ function App() {
             <Aboutus></Aboutus>
           </Route>
           <Route path="/services">
-            <Services></Services>
+            <SingleService></SingleService>
           </Route>
-          <Route path="/posts">
+          {/* <Route path="/posts">
             <Posts></Posts>
-          </Route>
-          <Route path="/">
+          </Route> */}
+          <Route path="*">
             <NotFound></NotFound>
           </Route>
         </Switch>

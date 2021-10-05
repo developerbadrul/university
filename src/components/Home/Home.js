@@ -12,7 +12,7 @@ const Home = () => {
         <div>
             <div className="hero-section">
                 <div className="Left-side">
-                    <h1>We Help to <span>Build</span>  Your Dream</h1>
+                    <h1>We Help to <span>Build</span> <br/>  Your Dream</h1>
                     <p>We are  always availed to consult on taking your higher education to the next level so you can stay competitive</p>
                     <button>Apply Now <i class="fa fa-arrow-right"></i></button>
                     <ul>

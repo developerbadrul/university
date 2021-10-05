@@ -1,8 +1,8 @@
-This is my university project
+This is my Programming Hero project
 
 View Link:- https://serene-franklin-00d1db.netlify.app/
 
-Elements:-
+Element that has been used -
 
 * React Js
 * Ract Router

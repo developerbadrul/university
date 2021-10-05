@@ -15,8 +15,8 @@ const Nav = () => {
            <NavLink exact to="/" activeStyle={activeStyle}>Home</NavLink>
            {/* <NavLink to="/home" activeStyle={activeStyle}>Home</NavLink> */}
            <NavLink to="/aboutus" activeStyle={activeStyle}>About Us</NavLink>
-           <NavLink to="/services" activeStyle={activeStyle}>Services</NavLink>
-           <NavLink to="/posts" activeStyle={activeStyle}>Posts</NavLink>
+           <NavLink to="/services" activeStyle={activeStyle}>Students</NavLink>
+           {/* <NavLink to="/posts" activeStyle={activeStyle}>Posts</NavLink> */}
         </div>
     );
 };
